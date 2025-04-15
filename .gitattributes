@@ -1,0 +1,11 @@
+# Normalize line endings for code files, but exclude node_modules and .env
+*.js text eol=lf
+*.ts text eol=lf
+*.json text eol=lf
+*.html text eol=lf
+*.css text eol=lf
+*.scss text eol=lf
+
+# Exclude node_modules & .env from normalization
+node_modules/* -text
+.env -text
